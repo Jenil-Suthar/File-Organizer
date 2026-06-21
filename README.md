@@ -6,16 +6,19 @@ A Python script that organizes files into folders based on their file extensions
 
 Before:
 
-Downloads/<br>
-├── photo.jpg<br>
+<pre>Downloads/
+├── photo.jpg
 ├── notes.txt
+├── song.mp3</pre>
 
 After:
 
-Downloads/<br>
-├── jpg/<br>
-│   └── photo.jpg<br>
-├── txt/<br>
-│   └── notes.txt<br>
+<pre>Downloads
+├── jpg/
+│   └── photo.jpg
+├── txt/
+│   └── notes.txt
+├── mp3/
+│   └── song.mp3</pre>
 
 Enter the folder path when prompted.
